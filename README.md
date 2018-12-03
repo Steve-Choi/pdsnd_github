@@ -18,7 +18,7 @@ It also takes in raw input from users to create an interactive experience in the
 ### Files used
 - bikeshare.py
 
-### Credits
+### References
 1. to_datetime()
 - https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html
 - https://pandas.pydata.org/pandas-docs/stable/api.html#datetimelike-properties
