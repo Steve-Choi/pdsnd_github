@@ -244,9 +244,11 @@ def user_stats(df):
 
 def display_raw_data(df):
     """
-    Asks users if they want to see the raw data, if "yes", display first 5 lines of raw data.
-    And again it asks if they want to see more, if "yes" then you should display further 5 lines of raw data.
-    This continues until the user enters "no" or data reaches the end.
+    Asks users if they want to see the raw dataself.
+
+    Returns:
+        df - 5 lines of raw data each while user responses with "yes"
+             This continues until the user enters "no" or data reaches the end.
     """
     # Validating user's first input, "yes" or "no"
     while True:
