@@ -1,15 +1,33 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on Dec.3rd, 2018.
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
+
+### How to Use this Program
+git clone https://github.com/Steve-Choi/pdsnd_github.git
+cd pdsnd_github
+python bikeshare.py
+
 
 ### Description
-Describe what your project is about and what it does
+In this project, Python was used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
+This program imports the data and answer interesting questions about it by computing descriptive statistics.
+It also takes in raw input from users to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-Include the files used
+- bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1. to_datetime()
+- https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html
+- https://pandas.pydata.org/pandas-docs/stable/api.html#datetimelike-properties
 
+2. mode()
+- http://www.datasciencemadesimple.com/mode-function-python-pandas-dataframe-row-column-wise-mode/
+
+3. value_counts()
+- https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts
+
+4. divmod()
+- https://stackoverflow.com/questions/21323692/convert-seconds-to-weeks-days-hours-minutes-seconds-in-python
